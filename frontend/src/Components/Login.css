@@ -1,0 +1,133 @@
+/* General Layout */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    position: relative;
+  }
+  
+  /* Logo */
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .logo img {
+    width: 80px;
+  }
+  
+  /* Login Box */
+  .login-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+  }
+  
+  /* Header Tabs */
+  .login-header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .login-header span {
+    padding: 5px 15px;
+    transition: 0.3s;
+  }
+  
+  .login-header .active {
+    color: #6a11cb;
+    border-bottom: 2px solid #6a11cb;
+  }
+  
+  /* Input Fields */
+  .input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  .input-group label {
+    font-size: 16px;
+    font-weight: bold;
+    width: 90px;
+    text-align: left;
+    flex-shrink: 0;
+  }
+  
+  .input-field {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 110px); /* Adjusts based on label width */
+}
+  
+  /* Password Input */
+  .password-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* .password-container .icon {
+    margin-right: px;
+  } */
+  
+  /* Button */
+  .login-btn {
+    width: 100%;
+    background: #6a11cb;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .login-btn:hover {
+    background: #4b08a1;
+  }
+  
+  /* Sign Up Link */
+  .signup-link {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .signup-link a {
+    color: #6a11cb;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+
+  .login-form input {
+    width: 100%; /* Makes the inputs take full width of the container */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds space between input fields */
+  }
+  

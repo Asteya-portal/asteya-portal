@@ -1,0 +1,83 @@
+/* Main Container */
+.signup-organization-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+/* Logo */
+.signup-organization-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+} 
+
+/* Signup Box */
+.signup-organization-box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+}
+
+/* Title */
+.signup-organization-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+/* Input fields */
+.signup-organization-input {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0 !important;  /* Ensure margin applies */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  display: block;  /* Forces block layout for proper spacing */
+}
+
+/* OTP Button */
+.signup-organization-btn {
+  width: 100%;
+  padding: 12px;
+  background: #6a11cb;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 20px !important;
+}
+
+.signup-organization-btn:hover {
+  background: #4a0e9a;
+}
+
+/* Sign-in text */
+.signup-organization-footer {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Highlighting Sign In link */
+.signup-organization-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #6a11cb;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-organization-link:hover {
+  text-decoration: underline;
+  color: #4a0e9a;
+}
